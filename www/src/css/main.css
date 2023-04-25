@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+.REACTAPP {
+    font-weight: 600;
+    font-size: xx-large;
+    margin-left: 800px;
+}
+
 body {
     background-color: #333;
     color: #fff;
