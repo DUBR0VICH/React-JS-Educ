@@ -18,19 +18,6 @@ class Users extends React.Component {
       .catch((error) => console.log(error));
   }
 
-  handleUserClick = (userId) => {
-    fetch(`https://jsonplaceholder.typicode.com/posts?userId=${userId}`)
-      .then((response) => response.json())
-      .then((data) => this.setState({ posts: data, currentUserId: userId }))
-      .catch((error) => console.log(error));
-  };
-
-  handleShowPostsClick = (userId) => {
-    fetch(`https://jsonplaceholder.typicode.com/posts?userId=${userId}`)
-      .then((response) => response.json())
-      .then((data) => this.setState({ posts: data, currentUserId: userId }))
-      .catch((error) => console.log(error));
-  };
 
   render() {
     const { users, currentUserId, posts } = this.state;
