@@ -32,9 +32,12 @@ aside {
 }
 
 main .user {
+    box-shadow: 0 0 6px #3e8fa0;
     margin-bottom: 20px;
     background-color: #3e8fa0;
     padding: 20px;
+    border: none;
+    border-radius: 5px;
 }
 
 button {
@@ -53,4 +56,41 @@ button {
   
   button:hover {
     background-color: #222;
+  }
+
+  main .user .post {
+    box-shadow: 0 0 5px #000;
+    background-color: #222;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Reg {
+    box-shadow: 0 0 6px #3e8fa0;
+    margin-top: -30px;
+    background-color: #3e8fa0;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .Reg1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .Regist {
+    margin: 10px 10px 10px 0px;
+  }
+
+  main .user .post .post_title {
+    font-weight: 600;
+    font-size:x-large;
+    margin-bottom: 20px;
+  }
+
+  main .user .username {
+    padding-bottom: 10px;
   }
