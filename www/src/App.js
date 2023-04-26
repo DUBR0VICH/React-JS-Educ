@@ -2,6 +2,7 @@ import React from "react"
 import Header from "./components/header"
 import Users from "./components/users"
 import Register from "./components/Register"
+import Login from "./components/Login"
 
 class App extends React.Component {
   
@@ -14,6 +15,7 @@ class App extends React.Component {
         </main>
         <aside>
           <Register />
+          <Login />
         </aside>
       </div>
     )

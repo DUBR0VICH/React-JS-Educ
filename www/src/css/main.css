@@ -22,6 +22,7 @@ body {
     background-color: #222;
     padding: 25px 100px;
     font-weight: 600;
+    box-shadow: 0 0 20px #000;
 }
 
 main {
@@ -40,6 +41,7 @@ aside {
 main .user {
     box-shadow: 0 0 6px #3e8fa0;
     margin-bottom: 20px;
+    margin-top: 30px;
     background-color: #3e8fa0;
     padding: 20px;
     border: none;
@@ -76,7 +78,7 @@ button {
 
   .Reg {
     box-shadow: 0 0 6px #3e8fa0;
-    margin-top: -30px;
+    margin-top: 0px;
     background-color: #3e8fa0;
     padding: 20px;
     border: none;
@@ -100,3 +102,21 @@ button {
   main .user .username {
     padding-bottom: 10px;
   }
+
+  .Log {
+    box-shadow: 0 0 6px #3e8fa0;
+    margin-top: 20px;
+    background-color: #3e8fa0;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .Log1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .Loginn {
+    margin: 10px 10px 10px 0px;
+  }
+
